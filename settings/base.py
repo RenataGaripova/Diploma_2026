@@ -32,6 +32,7 @@ PROJECT_APPS = [
     "apps.abstracts.apps.AbstractsConfig",
     "apps.companies.apps.CompaniesConfig",
     "apps.users.apps.UsersConfig",
+    "apps.products.apps.ProductsConfig",
 ]
 INSTALLED_APPS = DJANGO_AND_THIRD_PARTY_APPS + PROJECT_APPS
 AUTH_USER_MODEL = "users.CustomUser"

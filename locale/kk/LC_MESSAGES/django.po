@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SmartStock\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 16:27+0000\n"
+"POT-Creation-Date: 2026-11-02 16:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,7 @@ msgid "Companies"
 msgstr "Компаниялар"
 
 #: apps/companies/models.py:22 apps/companies/models.py:60
+#: apps/products/models.py:36 apps/products/models.py:92
 msgid "Name"
 msgstr "Атауы"
 
@@ -42,6 +43,7 @@ msgid "Is company active?"
 msgstr "Компания белсенді ме?"
 
 #: apps/companies/models.py:31 apps/companies/models.py:56
+#: apps/products/models.py:32 apps/products/models.py:80
 #: apps/users/models.py:175
 msgid "Company"
 msgstr "Компания"
@@ -65,6 +67,70 @@ msgstr "Қойма"
 #: apps/companies/models.py:79
 msgid "Warehouses"
 msgstr "Қоймалар"
+
+#: apps/products/apps.py:7 apps/products/models.py:118
+msgid "Products"
+msgstr "Тауарлар"
+
+#: apps/products/models.py:38
+msgid "Is category active?"
+msgstr "Санат белсенді ме?"
+
+#: apps/products/models.py:43 apps/products/models.py:88
+msgid "Category"
+msgstr "Санат"
+
+#: apps/products/models.py:44
+msgid "Categories"
+msgstr "Санаттар"
+
+#: apps/products/models.py:66
+msgid "pcs"
+msgstr "дана"
+
+#: apps/products/models.py:67
+msgid "kg"
+msgstr "кг"
+
+#: apps/products/models.py:68
+msgid "l"
+msgstr "л"
+
+#: apps/products/models.py:69
+msgid "m"
+msgstr "м"
+
+#: apps/products/models.py:70
+msgid "pack"
+msgstr "қап"
+
+#: apps/products/models.py:96
+msgid "SKU"
+msgstr "Артикул"
+
+#: apps/products/models.py:102
+msgid "Unit"
+msgstr "Өлшем бірлігі"
+
+#: apps/products/models.py:104
+msgid "Is product active?"
+msgstr "Тауар белсенді ме?"
+
+#: apps/products/models.py:111 apps/users/models.py:191
+msgid "Created by"
+msgstr "Кім құрды"
+
+#: apps/products/models.py:117
+msgid "Product"
+msgstr "Тауар"
+
+#: apps/products/models.py:127
+msgid "Product with this SKU already exists in the company"
+msgstr "Компанияда мұндай артикулы бар тауар бұрыннан бар"
+
+#: apps/products/models.py:151
+msgid "Category belongs to another company"
+msgstr "Санат басқа компанияға тиесілі"
 
 #: apps/users/apps.py:7
 msgid "Users"
@@ -141,10 +207,6 @@ msgstr "Лауазымы"
 #: apps/users/models.py:167
 msgid "Role"
 msgstr "Рөлі"
-
-#: apps/users/models.py:191
-msgid "Created by"
-msgstr "Кім құрды"
 
 #: apps/users/models.py:193
 msgid "Is user active?"
