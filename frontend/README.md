@@ -1,0 +1,1 @@
+Folder for a front app.
