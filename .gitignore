@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+
+# Secrets
+.env
+settings/.env
+
+# Local database
+db.sqlite3
+
+# Collected static and uploaded files
+static/
+media/
+screenshots/
+attachments/
+
+# OS / IDE
+.DS_Store
+Icon?
+.vscode/
+.idea/
+
+*.mo
