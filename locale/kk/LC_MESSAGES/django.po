@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SmartStock\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 13:45+0000\n"
+"POT-Creation-Date: 2026-11-02 14:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,13 +16,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-#: apps/abstracts/models.py:14
+
+#: apps/abstracts/models.py:18
 msgid "Created at"
 msgstr "Құрылған уақыты"
 
-#: apps/abstracts/models.py:15
+#: apps/abstracts/models.py:19
 msgid "Updated at"
 msgstr "Жаңартылған уақыты"
+
+#: apps/abstracts/models.py:71
+msgid "Deleted at"
+msgstr "Жойылған уақыты"
 
 #: apps/users/apps.py:7
 msgid "Users"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SmartStock\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 13:45+0000\n"
+"POT-Creation-Date: 2026-11-02 14:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,13 +18,18 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
-#: apps/abstracts/models.py:14
+
+#: apps/abstracts/models.py:18
 msgid "Created at"
 msgstr "Дата создания"
 
-#: apps/abstracts/models.py:15
+#: apps/abstracts/models.py:19
 msgid "Updated at"
 msgstr "Дата обновления"
+
+#: apps/abstracts/models.py:71
+msgid "Deleted at"
+msgstr "Дата удаления"
 
 #: apps/users/apps.py:7
 msgid "Users"
